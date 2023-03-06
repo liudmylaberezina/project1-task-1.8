@@ -1,0 +1,97 @@
+@import "./mixim.scss";
+@import "./colors.scss";
+@import "./variables.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo {
+  color: $bluetext;
+  padding-left: 245px;
+}
+
+.menu__body__list {
+  list-style: none;
+  display: flex;
+}
+
+.menu__link {
+  padding: 30px;
+  text-decoration: none;
+  color: $bodycolor;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.menu__link {
+  color: $bluetext;
+}
+
+.menu__link.menu__link_active {
+  border-radius: 9px;
+  color: $bluetext;
+}
+
+@media (max-width: 1256px) {
+  .logo {
+    padding-left: 100px;
+  }
+  .menu__body__list {
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 1100px) {
+  /* Container 1 */
+  .logo {
+    padding-left: 40px;
+  }
+
+  .menu__body__list {
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 990px) {
+  .logo {
+    padding-left: 40px;
+  }
+
+  .menu__body__list {
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 950px) {
+  .logo h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  .menu__body__list {
+    padding-right: 125px;
+  }
+}
+
+@media (max-width: 705px) {
+  .menu__body__list {
+    padding-right: 0px;
+  }
+}
+
+.menu__link:link,
+.menu__link:link,
+:visited {
+  font-size: 22px;
+}
+
+@media (max-width: 450px) {
+  .menu__body__list {
+    padding-right: 12px;
+  }
+}

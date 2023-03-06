@@ -1,0 +1,313 @@
+.container__2 {
+  position: relative;
+}
+
+.icons_squre_img_1 {
+  position: absolute;
+  left: calc(100% - 200px);
+  top: 15px;
+  z-index: -1;
+}
+
+.icons_squre_img_2 {
+  position: absolute;
+  top: calc(99% - 200px);
+  right: calc(100% - 200px);
+  z-index: -1;
+}
+
+.icons_squre_img_3 {
+  position: absolute;
+  left: calc(90% - 150px);
+  top: 100px;
+  z-index: -1;
+}
+
+.icons_squre_img_4 {
+  position: absolute;
+  top: calc(65% - 150px);
+  right: calc(85% - 150px);
+  z-index: -1;
+}
+
+.container__4 {
+  position: relative;
+}
+
+.icons_squre_img_5 {
+  position: absolute;
+  left: calc(97% - 150px);
+  top: 100px;
+  z-index: -1;
+}
+
+.container__5 {
+  position: relative;
+}
+.icons_squre_img_6 {
+  position: absolute;
+  top: calc(99% - 200px);
+  left: calc(100% - 200px);
+  transform: rotate(-180deg);
+  z-index: -1;
+}
+
+.icons_squre_img_7 {
+  position: absolute;
+  top: calc(110% - 200px);
+  right: calc(100% - 200px);
+  transform: rotate(-180deg);
+  z-index: -1;
+}
+
+@media (max-width: 1200px) {
+  // container 2 //
+  .icons_squre_img_1 {
+    width: 150px;
+    position: absolute;
+    left: calc(100% - 150px);
+    top: 15px;
+    z-index: -1;
+  }
+
+  .icons_squre_img_2 {
+    width: 150px;
+    position: absolute;
+    top: calc(99% - 150px);
+    right: calc(100% - 150px);
+    z-index: -1;
+  }
+
+  .icons_squre_img_3 {
+    width: 120px;
+    position: absolute;
+    left: calc(60% - 120px);
+    top: 100px;
+    z-index: -1;
+  }
+
+  .icons_squre_img_4 {
+    width: 120px;
+    position: absolute;
+    top: calc(65% - 120px);
+    right: calc(94% - 120px);
+    z-index: -1;
+  }
+}
+
+// container 4 //
+.icons_squre_img_5 {
+  width: 120px;
+  position: absolute;
+  left: calc(97% - 120px);
+  top: 100px;
+  z-index: -1;
+}
+
+// container 5 //
+.icons_squre_img_6 {
+  width: 150px;
+  position: absolute;
+  top: calc(99% - 150px);
+  left: calc(100% - 150px);
+  transform: rotate(-180deg);
+  z-index: -1;
+}
+
+.icons_squre_img_7 {
+  width: 150px;
+  position: absolute;
+  top: calc(102% - 150px);
+  right: calc(100% - 150px);
+  transform: rotate(-180deg);
+  z-index: -1;
+}
+
+@media (max-width: 850px) {
+  // container 2 //
+  .icons_squre_img_1 {
+    width: 100px;
+    position: absolute;
+    left: calc(100% - 100px);
+    top: 15px;
+    z-index: -1;
+  }
+
+  .icons_squre_img_2 {
+    width: 100px;
+    position: absolute;
+    top: calc(99% - 100px);
+    right: calc(100% - 100px);
+    z-index: -1;
+  }
+
+  .icons_squre_img_3 {
+    width: 100px;
+    position: absolute;
+    left: calc(60% - 100px);
+    top: 100px;
+    z-index: -1;
+  }
+
+  .icons_squre_img_4 {
+    width: 100px;
+    position: absolute;
+    top: calc(65% - 100px);
+    right: calc(94% - 100px);
+    z-index: -1;
+  }
+}
+
+// container 4 //
+.icons_squre_img_5 {
+  width: 100px;
+  position: absolute;
+  left: calc(97% - 100px);
+  top: 100px;
+  z-index: -1;
+}
+
+// container 5 //
+.icons_squre_img_6 {
+  width: 100px;
+  position: absolute;
+  top: calc(99% - 100px);
+  left: calc(100% - 100px);
+  transform: rotate(-180deg);
+  z-index: -1;
+}
+
+.icons_squre_img_7 {
+  width: 100px;
+  position: absolute;
+  top: calc(102% - 100px);
+  right: calc(100% - 100px);
+  transform: rotate(-180deg);
+  z-index: -1;
+}
+
+@media (max-width: 590px) {
+  // container 2 //
+  .icons_squre_img_1 {
+    width: 50px;
+    position: absolute;
+    left: calc(100% - 50px);
+    top: 15px;
+    z-index: -1;
+  }
+
+  .icons_squre_img_2 {
+    width: 50px;
+    position: absolute;
+    top: calc(99% - 50px);
+    right: calc(100% - 50px);
+    z-index: -1;
+  }
+
+  .icons_squre_img_3 {
+    width: 50px;
+    position: absolute;
+    left: calc(60% - 50px);
+    top: 100px;
+    z-index: -1;
+  }
+
+  .icons_squre_img_4 {
+    width: 50px;
+    position: absolute;
+    top: calc(65% - 50px);
+    right: calc(94% - 50px);
+    z-index: -1;
+  }
+}
+
+// container 4 //
+.icons_squre_img_5 {
+  width: 50px;
+  position: absolute;
+  left: calc(97% - 50px);
+  top: 100px;
+  z-index: -1;
+}
+
+// container 5 //
+.icons_squre_img_6 {
+  width: 50px;
+  position: absolute;
+  top: calc(99% - 50px);
+  left: calc(100% - 50px);
+  transform: rotate(-180deg);
+  z-index: -1;
+}
+
+.icons_squre_img_7 {
+  width: 50px;
+  position: absolute;
+  top: calc(100% - 50px);
+  right: calc(100% - 50px);
+  transform: rotate(-180deg);
+  z-index: -1;
+}
+
+@media (max-width: 570px) {
+  // container 2 //
+  .icons_squre_img_1 {
+    width: 50px;
+    position: absolute;
+    left: calc(100% - 50px);
+    top: 15px;
+    z-index: -1;
+  }
+
+  .icons_squre_img_2 {
+    width: 50px;
+    position: absolute;
+    top: calc(5% - 50px);
+    right: calc(108% - 50px);
+    z-index: -1;
+  }
+
+  .icons_squre_img_3 {
+    width: 50px;
+    position: absolute;
+    left: calc(81% - 50px);
+    top: 49px;
+    z-index: -1;
+  }
+
+  .icons_squre_img_4 {
+    width: 50px;
+    position: absolute;
+    top: calc(49% - 50px);
+    right: calc(105% - 50px);
+    z-index: -1;
+  }
+}
+
+// container 4 //
+.icons_squre_img_5 {
+  width: 50px;
+  position: absolute;
+  left: calc(97% - 50px);
+  top: 100px;
+  z-index: -1;
+}
+
+// container 5 //
+.icons_squre_img_6 {
+  width: 50px;
+  position: absolute;
+  top: calc(99% - 50px);
+  left: calc(100% - 50px);
+  transform: rotate(-180deg);
+  z-index: -1;
+}
+
+.icons_squre_img_7 {
+  width: 50px;
+  position: absolute;
+  top: calc(100% - 50px);
+  right: calc(100% - 50px);
+  transform: rotate(-180deg);
+  z-index: -1;
+}

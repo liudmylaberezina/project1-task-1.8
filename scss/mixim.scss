@@ -1,0 +1,24 @@
+@mixin grid1fr1frcenter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-self: center;
+}
+
+@mixin squresize {
+  width: 180px;
+  height: 170px;
+}
+@mixin flex_align {
+  display: flex;
+  align-items: center;
+}
+
+@mixin grid-column-start-end-1-3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+@mixin grid-column-row-start-1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
